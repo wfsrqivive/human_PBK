@@ -1,6 +1,6 @@
 library(tidyverse)
 library(ggforce)
-model_results<-read.csv("../results/PBKresults.csv")
+model_results<-read.csv("../model/results/PBKresults.csv")
 
 #data preparation figure (calculating the median predicted abserved ratio per compound and adding the number predicted within 5-fold)
 figure_data <- model_results %>%

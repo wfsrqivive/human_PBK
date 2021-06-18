@@ -1,8 +1,8 @@
 library(tidyverse)
-library(ggforce)
+library(ggpubr)
 library(gridExtra)
 library(grid)
-model_results<-read.csv("../results/PBKresults.csv")
+model_results<-read.csv("../model/results/PBKresults.csv")
 
 #data preparation figure
 figure_data_Kpad <-model_results %>% 

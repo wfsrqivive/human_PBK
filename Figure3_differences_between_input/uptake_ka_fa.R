@@ -1,6 +1,6 @@
 library(tidyverse)
 library(ggforce)
-model_results<-read.csv("../results/PBKresults.csv")
+model_results<-read.csv("../model/results/PBKresults.csv")
 
 #calculating per method the number of compounds for which the median predicted Cmax is within 5-fold of the observed Cmax
 numberWithin<-model_results %>%
